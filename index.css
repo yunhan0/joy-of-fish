@@ -18,4 +18,9 @@ body, html {
   cursor: pointer;
 }
 
+#funny-img > img {
+  width: 100%;
+  max-width: 350px;
+}
+
 button:focus { outline: none; }
