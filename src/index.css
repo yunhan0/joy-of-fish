@@ -1,0 +1,21 @@
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fcfcfc;
+}
+
+.page {
+  padding: 16px;
+}
+
+.btn-dark {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 12px;
+  background-color: #212121;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+button:focus { outline: none; }

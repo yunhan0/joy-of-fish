@@ -7,8 +7,8 @@ function init() {
 }
 
 function nextDebate() {
-  if (debates.length === 100) {
-    alert("你赢了")
+  if (debates.length === 20) {
+    alert("泥垢！你赢了。")
     return
   }
 
