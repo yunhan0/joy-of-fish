@@ -51,6 +51,8 @@ function nextDebate() {
   debates.push(next)
   // Render next sentence in html
   renderSentence(next)
+  // Scroll to the bottom of the page
+  window.scrollTo(0,document.body.scrollHeight)
 }
 
 function renderSentence(sentence) {
